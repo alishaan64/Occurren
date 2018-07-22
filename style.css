@@ -1,5 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
+.h1{
+  font-family:roboto; 
+  text-align: center; 
+  color: white;
+  font-weight: bold; 
+  font-size: 150%; 
+  text-shaddow: 2px 2px 5px gray;
+}
+.h2{
+  font-family:roboto; 
+  text-align: center; 
+  color: white;
+  font-weight: bold; 
+  font-size: 150%; 
+  text-shaddow: 1px 1px 2px gray;
+}
+
 .login-page {
   width: 360px;
   padding: 8% 0 0;
