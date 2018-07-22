@@ -11,6 +11,22 @@
   background: linear-gradient(to left, #ffff99, #9A3D55);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
+  <style>.column button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #9A3D55;
+    width: 30%;
+    border: 50px;
+    padding: 20px;
+    margin: 40px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+    </style>
   -moz-osx-font-smoothing: grayscale; id="botChat" style="text-align:left; position:fixed; display:block; top:7vh; border:1px solid black; width:82.5vw; margin-left:3%; margin-right:2.25%; height:65vh; resize:none; font-family:Courier; overflow-y:auto; user-select:none; font-size:3vw;"></textarea>        <p style="position:absolute; border:1px solid black; top:78vh; left:12.25vw; width:70vw;">        <input type="text" placeholder="Talk to a friend" onKeypress="enterButton(event, document.getElementsByTagName('input')[0].value);" style="color:red; width:79%;">         <button onClick="answer(document.getElementsByTagName('input')[0].value)">Get connected!</button></p>        <script>
     
 var you = "Me";
@@ -182,19 +198,4 @@ function answer(x) {
             } function youSay(x) { botSays("\n"+ you + " \ : " + x)
             }
             function youDo(x) { botSays("\n"+ you + " " + x)                                            
-            } function enterButton(e, x) { if (e.keyCode == 13) { answer(x); }   }    </script></body><style>.column button{
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
-    outline: 0;
-    background: #9A3D55;
-    width: 30%;
-    border: 50px;
-    padding: 20px;
-    margin: 40px;
-    color: #FFFFFF;
-    font-size: 14px;
-    -webkit-transition: all 0.3 ease;
-    transition: all 0.3 ease;
-    cursor: pointer;
-}
-    </style></html>
+            } function enterButton(e, x) { if (e.keyCode == 13) { answer(x); }   }    </script></body></html>
