@@ -1,1 +1,72 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="action.js"></script>
+  <div class="banner">
+  <button onclick="home()" id="home-button">Back to home page</button>
+  </div>
+  <img id="banner" src="https://preview.ibb.co/hdydry/banner.jpg" alt="Banner"/>
+  <h1 style = "font-family: Roboto; 
+  text-align: center; 
+  color: white;
+  font-weight: bold; 
+  font-size: 400%; 
+  text-shadow: 4px 4px 10px gray;">My Home Page</h1>
+</head> 
+<div class="matches">
+<div class="cards">
+<cards>
+<img alt ="profile picture">
+<button style = "top: 50%; left: 30%;" onclick="matches()" id="matches-button">See my matches and meet new friends</button>
+<button style = "top: 50%; left: 50%;" onclick="chats()" id="chats-button">Chat with my friends</button>
+<button style = "top: 50%; left: 70%;" onclick="profile()" id="profile-button">View my profile</button>
+</cards>
+</div>
+<script>
+  .cards button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #9A3D55;
+  width: 60%;
+  border: 10px;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+body {
+  background: #e0e0e0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+#banner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 200px;
+  z-index: -1;
+}
+.banner button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #9A3D55;
+  width: 20%;
+  border: 15px;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+  </script>
+    
+</div>
+</html>
