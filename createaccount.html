@@ -34,7 +34,15 @@
       <button onclick="addUsers()" id="addaccount">Create account</button>
       <script>
         function addUsers(){
-          alert("dtfgjul");
+          var users = [];
+          var passes = [];
+          
+          users.push(document.getElementById('user').value);
+          passes.push(document.getElementById('pass').value);
+          
+          window.location.href = 'https://emilydkiehl.github.io/Occurren/home.html';
+          alert(users, passes);
+          }
         }
       </script>
       
