@@ -1,2 +1,2 @@
 # Occurren
-A platform for for children with disabilities and their parents to connect to the community and others similar to them.
+An online community for children with disabilities and their parents to connect to their community and others similar to them.
