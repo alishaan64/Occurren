@@ -37,3 +37,6 @@ function login(){
          window.location.href = 'https://emilydkiehl.github.io/Occurren/home.html';
       }
 }
+      
+document.getElementById("addaccount").addEventListener('click', addUsers());
+document.getElementById("login").addEventListener('click', login());
