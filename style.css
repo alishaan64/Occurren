@@ -41,7 +41,7 @@
   cursor: pointer;
 }
 .form button:hover,.form button:active,.form button:focus {
-  background: #9A3D99;
+  background: #9A3D96;
 }
 .form .message {
   margin: 15px 0 0;
@@ -86,7 +86,7 @@
   text-decoration: none;
 }
 .container .info span .fa {
-  color: #EF3B3A;
+  color: #9A3D55;
 }
 body {
   background: #76b852; /* fallback for old browsers */
