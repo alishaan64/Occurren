@@ -17,19 +17,22 @@
 <div class="cards">
 <cards>
 <img alt ="profile picture">
-<button style = "top: 50%; left: 30%;" onclick="matches()" id="matches-button">See my matches and meet new friends</button>
-<button style = "top: 50%; left: 50%;" onclick="chats()" id="chats-button">Chat with my friends</button>
-<button style = "top: 50%; left: 70%;" onclick="profile()" id="profile-button">View my profile</button>
+<button style="display: block; margin: 0 auto;" onclick="matches()" id="matches-button">See my matches and meet new friends</button>
+<button style="display: block; margin: 0 auto;" onclick="chats()" id="chats-button">Chat with my friends</button>
+<button style="display: block; margin: 0 auto;" onclick="profile()" id="profile-button">View my profile</button>
 </cards>
-<style>
+</div>
+</div>
+  <style>
   .cards button {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
   background: #9A3D55;
-  width: 60%;
-  border: 10px;
-  padding: 15px;
+  width: 40%;
+  border: 40px;
+  padding: 20px;
+  margin: 15px;
   color: #FFFFFF;
   font-size: 14px;
   -webkit-transition: all 0.3 ease;
@@ -42,14 +45,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
 }
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border-radius: 50%;
-}
-
 #banner {
   position: absolute;
   top: 0px;
@@ -73,7 +68,11 @@ img {
   transition: all 0.3 ease;
   cursor: pointer;
 }
+  .cards img{
+  display: block;
+  margin: 0 auto;
+  border-margin: 50%;
+}
+
   </style>
-  </div>  
-</div>
 </html>
