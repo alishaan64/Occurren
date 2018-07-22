@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-        
+     <button>Back to home page</button>   
     </head>
     <body  style="text-align:center;">         <textarea readonly="true"   background: #76b852; /* fallback for old browsers */
   background: -webkit-linear-gradient(right, #ffff99, #9A3D55);
@@ -182,4 +182,19 @@ function answer(x) {
             } function youSay(x) { botSays("\n"+ you + " \ : " + x)
             }
             function youDo(x) { botSays("\n"+ you + " " + x)                                            
-            } function enterButton(e, x) { if (e.keyCode == 13) { answer(x); }   }    </script></body></html>
+            } function enterButton(e, x) { if (e.keyCode == 13) { answer(x); }   }    </script></body><style>.column button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #9A3D55;
+    width: 30%;
+    border: 50px;
+    padding: 20px;
+    margin: 40px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+    </style></html>
