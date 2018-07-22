@@ -16,10 +16,16 @@
 <div class="matches">
   <div class="card">
     <card class="new-card">
+       <script>
+        var people = ["Radu Vasilescu", "Drake Mueller", "Finley Canton", "Alishaan Ali", "Yajat Dhawan","Mike Wilson"];
+        var ages = [8,9,10,11,12,13,14,15,16];
+        var location = ["Loveland", "Mason", "Dallas", "Chicago", "Des Moines", "Indianapolis", "Minneapolis"];
+        var images = ["https://thumb.ibb.co/gC9f6y/0af9f2546d204f01bc59aae8f0d1f402.jpg","https://thumb.ibb.co/gbNNKJ/201752520150218_image.png"]
+      </script>
       <img src="https://www.cleverfiles.com/howto/wp-content/uploads/2018/03/minion.jpg" height = 40px>
-      <p style = "font-size = 24px;">Radu Vasilescu</p>
+      <p style = "font-size = 24px;">people[Math.floor(Math.random() * 7)];</p>
       <p style = "font-size = 24px;">Age: 11</p>
-      <p style = "font-size = 24px;">Location: Loveland, OH</p>
+      <p style = "font-size = 24px;">location[Math.floor(Math.random() * 8)];</p>
       <button>Add to My Friends!</button>
     </card>  
   </div>
