@@ -12,6 +12,7 @@ function addUsers(){
    passes.push(document.getElementById('pass').value);
    
    window.location.href = 'https://emilydkiehl.github.io/Occurren/home.html';
+   alert(users, passes);
 }
 function login(){
    var i;
