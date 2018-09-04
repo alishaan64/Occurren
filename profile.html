@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="action.js"></script>
+  </head>
+<div class="container">
+  <div style="text-align:center; font-type: Roboto;">
+  <h1 style = "font-family:Roboto; 
+  text-align: center; 
+  color: white;
+  font-weight: bold; 
+  font-size: 400%; 
+  text-shadow: 4px 4px 10px gray;">Hi, Emily!</h1>
+  </div>
+    </div>
+    <div class="column">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Emily Kiehl">
+        <label for="user">User Name</label>
+        <input type="text" id="user" name="user" placeholder="lovelandfrog">
+        <label for="pass">Password</label>
+        <input type="text" id="pass" name="pass" placeholder="l**********">
+        <label for="interests">Interests</label>
+        <select id="interests" name="interests">
+          <option value="Art">Art</option>
+          <option value="Science">Science</option>
+          <option value="Sports">Sports</option>
+          <option value="Music">Music</option>
+          <option value="Movies">Movies</option>
+          <option value="Math">Math</option>
+        </select>
+      <button onclick="addUsers()" id="addaccount">Save Profile</button>
+      <script>
+        function addUsers(){
+          var users = [];
+          var passes = [];
+          
+          users.push(document.getElementById('user').value);
+          passes.push(document.getElementById('pass').value);
+          
+          window.close();
+          window.open("https://emilydkiehl.github.io/Occurren/home.html");
+          alert(users, passes);
+        }
+      </script>
+  <style>
+/* Style inputs */
+input[type=text], select, textarea, label {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 50%;
+    resize: vertical;
+}
+.column button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #9A3D55;
+    width: 30%;
+    border: 50px;
+    padding: 20px;
+    margin: 40px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+body {
+  background-image: url("https://st2.depositphotos.com/2268523/11906/i/950/depositphotos_119060940-stock-photo-artist-paint-brushes-and-palette.jpg"); 
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+input[type=submit]:hover {
+    background-color: #9A3D55;
+}
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+</style>
+</div>
+</html>
